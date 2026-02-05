@@ -1,2 +1,1 @@
-# Sindhu
-Java internship 
+
