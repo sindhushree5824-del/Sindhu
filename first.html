@@ -1,37 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Clickable Image</title>
-
-    <style>
-        table {
-            display: none;
-            margin-top: 10px;
-            border-collapse: collapse;
-        }
-
-        table:target {
-            display: block;
-        }
-
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-        }
-    </style>
+    <title>Image Link Table</title>
 </head>
 
 <body>
 
-    <!-- Clickable image -->
+    <h2>Click the Image to View Details</h2>
+
+    
     <a href="#info">
         <img src="abdul kalam sir.jpg" width="150">
     </a>
 
-    <!-- Table -->
-    <table id="info">
-        <tr>
+    <hr>
+
+    <!-- Table Section -->
+    <h3 id="info">Information Table</h3>
+
+    <table border="1" cellpadding="8">
+<tr>
             <th>Name</th>
             <th>Born on</th>
             <th>Born place</th>
@@ -45,7 +33,3 @@
             <td>Engineering</td>
             <td>Wings of fire, India 2020</td>
         </tr>
-    </table>
-
-</body>
-</html>
