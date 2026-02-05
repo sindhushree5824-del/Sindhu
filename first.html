@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clickable Image</title>
+
+    <style>
+        table {
+            display: none;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+
+        table:target {
+            display: block;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Clickable image -->
+    <a href="#info">
+        <img src="abdul kalam sir.jpg" width="150">
+    </a>
+
+    <!-- Table -->
+    <table id="info">
+        <tr>
+            <th>Name</th>
+            <th>Born on</th>
+            <th>Born place</th>
+            <th>Education</th>
+            <th>Books</th>
+        </tr>
+        <tr>
+            <td>A.P.J.Abdul Kalam</td>
+            <td>1937</td>
+            <td>Rameshwaram</td>
+            <td>Engineering</td>
+            <td>Wings of fire, India 2020</td>
+        </tr>
+    </table>
+
+</body>
+</html>
